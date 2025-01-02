@@ -95,12 +95,12 @@ onMounted(() => {
             '#f7b84b',
             '#fa5252'
           ],
-          borderWidth: 0,
-          cutout: '70%'
+          borderWidth: 0
         }
       ]
     },
     options: {
+      cutout: 70,
       responsive: true,
       plugins: {
         legend: { display: false },

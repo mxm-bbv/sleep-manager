@@ -39,7 +39,7 @@ import RecordRTC, { RecordRTCPromisesHandler } from 'recordrtc'
 
 const isRecording = ref(false)
 const recordings = ref<{ url: string; blob: Blob }[]>([])
-let recorder: RecordRTCPromisesHandler | null = null
+let recorder: RecordRTCPromisesHandler | any = null
 
 async function startRecording() {
   try {
